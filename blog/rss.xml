@@ -4,7 +4,7 @@
         <title>My Site Blog</title>
         <link>https://your-docusaurus-test-site.com/ljs/blog</link>
         <description>My Site Blog</description>
-        <lastBuildDate>Fri, 08 Apr 2022 16:33:02 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 09 Apr 2022 02:01:43 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
@@ -12,7 +12,7 @@
             <title><![CDATA[第一篇博客]]></title>
             <link>https://your-docusaurus-test-site.com/ljs/blog/第一篇博客</link>
             <guid>第一篇博客</guid>
-            <pubDate>Fri, 08 Apr 2022 16:33:02 GMT</pubDate>
+            <pubDate>Sat, 09 Apr 2022 02:01:43 GMT</pubDate>
             <description><![CDATA[这是一次尝试]]></description>
             <content:encoded><![CDATA[<p>这是一次尝试</p>]]></content:encoded>
             <category>hola</category>
