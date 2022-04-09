@@ -29,11 +29,11 @@ const config = {
         // },
         blog: {
           path: "./blog",
-          routeBasePath: "/",
           showReadingTime: true,
-          // Please change this to your repo.
-          editUrl:
-            "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
+        },
+        literaryReview: {
+          path: "./literaryReview",
+          showReadingTime: true,
         },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
@@ -52,13 +52,12 @@ const config = {
           src: "img/logo.svg",
         },
         items: [
-          // {
-          //   type: "doc",
-          //   docId: "intro",
-          //   position: "left",
-          //   label: "Tutorial",
-          // },
           { to: "/", label: "Blog", position: "right" },
+          {
+            to: "/literaryReview",
+            label: "literary review",
+            position: "right",
+          },
           {
             href: "https://github.com/facebook/docusaurus",
             label: "GitHub",
