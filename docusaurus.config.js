@@ -29,10 +29,7 @@ const config = {
         // },
         blog: {
           path: "./blog",
-          showReadingTime: true,
-        },
-        literaryReview: {
-          path: "./literaryReview",
+          routeBasePath: "/",
           showReadingTime: true,
         },
         theme: {
@@ -53,11 +50,6 @@ const config = {
         },
         items: [
           { to: "/", label: "Blog", position: "right" },
-          {
-            to: "/literaryReview",
-            label: "literary review",
-            position: "right",
-          },
           {
             href: "https://github.com/facebook/docusaurus",
             label: "GitHub",
